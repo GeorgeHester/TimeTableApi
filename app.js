@@ -85,7 +85,7 @@ app.get('/xlsx', async (req, res) => {
     res.download('./xlsx/temp.xlsx', `${req.body.name} - TimeTable 2020 GCSE.xlsx`, (err) => {
         if (err) {
             console.log(err);
-            return
+            res.status(500)
         };
     });
 });
