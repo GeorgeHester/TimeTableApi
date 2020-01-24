@@ -74,7 +74,7 @@ async function editxlsx(data) {
     book.xlsx.writeFile('./xlsx/temp.xlsx');
 };
 
-app.get('/xlsx', async (req, res) => { 
+app.post('/xlsx', async (req, res) => { 
     
     console.log(req);
 
