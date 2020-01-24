@@ -4,11 +4,12 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "test": "node app.js"
   },
   "author": "NightFoxDev",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "exceljs": "^3.6.1",
     "express": "^4.17.1"
   }
