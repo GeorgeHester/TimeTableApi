@@ -35,7 +35,7 @@ function getexams(data, exams) {
 
 };
 
-async function editxlsx(data) {
+async function editxlsx(data, ip) {
     var book = new excel.Workbook();
     book = await book.xlsx.readFile('./xlsx/table.xlsx');
     var sheet = book.getWorksheet('data');
@@ -82,7 +82,7 @@ async function editxlsx(data) {
 
     };
 
-    book.xlsx.writeFile('./xlsx/temp.xlsx');
+    book.xlsx.writeFile(`./xlsx/temp-${ip}.xlsx`);
 };
 
 app.post('/xlsx', async (req, res) => { 
@@ -93,7 +93,7 @@ app.post('/xlsx', async (req, res) => {
     
     var data = getexams(intdata, exams);
 
-    editxlsx(data);
+    editxlsx(data, req.ip);
 
     res.download('./xlsx/temp.xlsx', `${req.body.name} - TimeTable 2020 GCSE.xlsx`, (err) => {
         if (err) {
