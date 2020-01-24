@@ -75,8 +75,10 @@ async function editxlsx(data) {
 };
 
 app.get('/xlsx', async (req, res) => { 
+    
+    console.log(req.body);
 
-    var intdata = req.body.exams
+    var intdata = req.body.exams;
     
     var data = getexams(intdata, exams);
 
@@ -85,7 +87,8 @@ app.get('/xlsx', async (req, res) => {
     res.download('./xlsx/temp.xlsx', `${req.body.name} - TimeTable 2020 GCSE.xlsx`, (err) => {
         if (err) {
             console.log(err);
-            res.status(500)
+            res.status(500);
+            return;
         };
     });
 });
