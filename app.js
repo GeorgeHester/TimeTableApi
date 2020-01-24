@@ -2,6 +2,17 @@ const excel = require('exceljs');
 const fs = require('fs');
 const express = require('express');
 const app = express();
+const cors = require('cors');
+
+const corsoptions = {
+    origin: '*',
+    methods: 'GET,POST,PUT,DELETE',
+    allowedHeaders: 'Content-Type,Authorization,auth',
+    optionsSuccessStatus: 200
+};
+
+app.use(cors(corsoptions));
+
 app.use(express.json());
 
 var examdatajson = fs.readFileSync('./json/examdata.json');
@@ -74,9 +85,9 @@ async function editxlsx(data) {
     book.xlsx.writeFile('./xlsx/temp.xlsx');
 };
 
-app.post('/xlsx', async (req, res) => { 
-    
-    console.log(req);
+app.get('/xlsx', async (req, res) => { 
+
+    console.log(req.body);
 
     var intdata = req.body.exams;
     
