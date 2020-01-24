@@ -1,0 +1,15 @@
+{
+  "name": "tt-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "NightFoxDev",
+  "license": "ISC",
+  "dependencies": {
+    "exceljs": "^3.6.1",
+    "express": "^4.17.1"
+  }
+}

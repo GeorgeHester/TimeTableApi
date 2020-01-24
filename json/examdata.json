@@ -1,0 +1,393 @@
+{
+    "exams": {
+        "EnLi1": {
+            "cell1": "English Literature",
+            "cell2": "Component 1",
+            "cell3": "[EDUQAS] - 2h",
+            "indexR": 7,
+            "indexC": 8
+        },
+        "EnLi2": {
+            "cell1": "English Literature",
+            "cell2": "Component 2",
+            "cell3": "[EDUQAS] - 2h 30m",
+            "indexR": 22,
+            "indexC": 11
+        },
+        "EnLa1": {
+            "cell1": "English Language",
+            "cell2": "Component 1",
+            "cell3": "[EDUQAS] - 1h 45m",
+            "indexR": 53,
+            "indexC": 5
+        },
+        "EnLa2": {
+            "cell1": "English Language",
+            "cell2": "Component 2",
+            "cell3": "[EDUQAS] - 2h",
+            "indexR": 53,
+            "indexC": 14
+        },
+        "MaFo1": {
+            "cell1": "Mathematics",
+            "cell2": "Paper 1 {non-calc}",
+            "cell3": "[AQA] - 1h 30m",
+            "indexR": 22,
+            "indexC": 5
+        },
+        "MaFo2": {
+            "cell1": "Mathematics",
+            "cell2": "Paper 2 {calc}",
+            "cell3": "[AQA] - 1h 30m",
+            "indexR": 53,
+            "indexC": 11
+        },
+        "MaFo3": {
+            "cell1": "Mathematics",
+            "cell2": "Paper 3 {calc}",
+            "cell3": "[AQA] - 1h 30m",
+            "indexR": 68,
+            "indexC": 2
+        },
+        "MaHi1": {
+            "cell1": "Mathematics",
+            "cell2": "Paper 1 {non-calc}",
+            "cell3": "[AQA] - 1h 30m",
+            "indexR": 22,
+            "indexC": 5
+        },
+        "MaHi2": {
+            "cell1": "Mathematics",
+            "cell2": "Paper 2 {calc}",
+            "cell3": "[AQA] - 1h 30m",
+            "indexR": 53,
+            "indexC": 11
+        },
+        "MaHi3": {
+            "cell1": "Mathematics",
+            "cell2": "Paper 3 {calc}",
+            "cell3": "[AQA] - 1h 30m",
+            "indexR": 68,
+            "indexC": 2
+        },
+        "Pe1": {
+            "cell1": "Physical Education",
+            "cell2": "Paper 1",
+            "cell3": "[OCR] - 1h",
+            "indexR": 12,
+            "indexC": 8
+        },
+        "Pe2": {
+            "cell1": "Physical Education",
+            "cell2": "Paper 2",
+            "cell3": "[OCR] - 1h",
+            "indexR": 88,
+            "indexC": 2
+        },
+        "Cs1": {
+            "cell1": "Computer Science",
+            "cell2": "Paper 1",
+            "cell3": "[EDEXCEL] - 1h 40m",
+            "indexR": 7,
+            "indexC": 2
+        },
+        "Cs2": {
+            "cell1": "Computer Science",
+            "cell2": "Paper 2",
+            "cell3": "[EDEXCEL] - 2h",
+            "indexR": 12,
+            "indexC": 11
+        },
+
+
+
+        "Ge1": [
+            {
+                "exinfo": "[AQA] Geography Paper 1 ( 8035/1 )",
+                "date": "18/05",
+                "time": "am",
+                "length": "1h 30m"
+            }
+        ],
+        "Ge2": [
+            {
+                "exinfo": "[AQA] Geography Paper 2 ( 8035/2 )",
+                "date": "03/06",
+                "time": "am",
+                "length": "1h 30m"
+            }
+        ],
+        "Ge3": [
+            {
+                "exinfo": "[AQA] Geography Paper 3 ( 8035/3 )",
+                "date": "11/06",
+                "time": "am",
+                "length": "1h 15m"
+            }
+        ],
+        "Bu1": [
+            {
+                "exinfo": "[AQA] Business Paper 1 ( 8132/1 )",
+                "date": "21/05",
+                "time": "pm",
+                "length": "1h 45m"
+            }
+        ],
+        "Bu2": [
+            {
+                "exinfo": "[AQA] Business Paper 2 ( 8132/2 )",
+                "date": "02/06",
+                "time": "pm",
+                "length": "1h 45m"
+            }
+        ],
+        "GeLiFo": [
+            {
+                "exinfo": "[AQA] German Listening ( 8668/LF )",
+                "date": "18/05",
+                "time": "pm",
+                "length": "35m"
+            }
+        ],
+        "GeLiHi": [
+            {
+                "exinfo": "[AQA] German Listening ( 8668/LH )",
+                "date": "18/05",
+                "time": "pm",
+                "length": "45m"
+            }
+        ],
+        "GeReFo": [
+            {
+                "exinfo": "[AQA] German Reading ( 8668/RF )",
+                "date": "18/05",
+                "time": "pm",
+                "length": "45m"
+            }
+        ],
+        "GeReHi": [
+            {
+                "exinfo": "[AQA] German Reading ( 8668/RH )",
+                "date": "18/05",
+                "time": "pm",
+                "length": "1h"
+            }
+        ],
+        "GeWrFo": [
+            {
+                "exinfo": "[AQA] German Writing ( 8668/WF )",
+                "date": "05/06",
+                "time": "pm",
+                "length": "1h"
+            }
+        ],
+        "GeWrHi": [
+            {
+                "exinfo": "[AQA] German Writing ( 8668/WH )",
+                "date": "05/06",
+                "time": "pm",
+                "length": "1h 15m"
+            }
+        ],
+        "ScCoFoBi1": [
+            {
+                "exinfo": "",
+                "date": "12/05",
+                "time": "pm",
+                "length": "1h 15m"
+            }
+        ],
+        "ScCoFoCh1": [
+            {
+                "exinfo": "",
+                "date": "14/05",
+                "time": "am",
+                "length": "1h 15m"
+            }
+        ],
+        "ScCoFoPh1": [
+            {
+                "exinfo": "",
+                "date": "20/05",
+                "time": "pm",
+                "length": "1h 15m"
+            }
+        ],
+        "ScCoHiBi1": [
+            {
+                "exinfo": "",
+                "date": "12/05",
+                "time": "pm",
+                "length": "1h 15m"
+            }
+        ],
+        "ScCoHiCh1": [
+            {
+                "exinfo": "",
+                "date": "14/05",
+                "time": "am",
+                "length": "1h 15m"
+            }
+        ],
+        "ScCoHiPh1": [
+            {
+                "exinfo": "",
+                "date": "20/05",
+                "time": "pm",
+                "length": "1h 15m"
+            }
+        ],
+        "ScCoFoBi2": [
+            {
+                "exinfo": "",
+                "date": "01/06",
+                "time": "pm",
+                "length": "1h 15m"
+            }
+        ],
+        "ScCoFoCh2": [
+            {
+                "exinfo": "",
+                "date": "10/06",
+                "time": "am",
+                "length": "1h 15m"
+            }
+        ],
+        "ScCoFoPh2": [
+            {
+                "exinfo": "",
+                "date": "12/06",
+                "time": "am",
+                "length": "1h 15m"
+            }
+        ],
+        "ScCoHiBi2": [
+            {
+                "exinfo": "",
+                "date": "01/06",
+                "time": "pm",
+                "length": "1h 15m"
+            }
+        ],
+        "ScCoHiCh2": [
+            {
+                "exinfo": "",
+                "date": "10/06",
+                "time": "am",
+                "length": "1h 15m"
+            }
+        ],
+        "ScCoHiPh2": [
+            {
+                "exinfo": "",
+                "date": "12/06",
+                "time": "am",
+                "length": "1h 15m"
+            }
+        ],
+        "ScTrFoBi1": [
+            {
+                "exinfo": "",
+                "date": "/",
+                "time": "",
+                "length": ""
+            }
+        ],
+        "ScTrFoCh1": [
+            {
+                "exinfo": "",
+                "date": "/",
+                "time": "",
+                "length": ""
+            }
+        ],
+        "ScTrFoPh1": [
+            {
+                "exinfo": "",
+                "date": "/",
+                "time": "",
+                "length": ""
+            }
+        ],
+        "ScTrHiBi1": [
+            {
+                "exinfo": "",
+                "date": "/",
+                "time": "",
+                "length": ""
+            }
+        ],
+        "ScTrHiCh1": [
+            {
+                "exinfo": "",
+                "date": "/",
+                "time": "",
+                "length": ""
+            }
+        ],
+        "ScTrHiPh1": [
+            {
+                "exinfo": "",
+                "date": "/",
+                "time": "",
+                "length": ""
+            }
+        ],
+        "ScTrFoBi2": [
+            {
+                "exinfo": "",
+                "date": "/",
+                "time": "",
+                "length": ""
+            }
+        ],
+        "ScTrFoCh2": [
+            {
+                "exinfo": "",
+                "date": "/",
+                "time": "",
+                "length": ""
+            }
+        ],
+        "ScTrFoPh2": [
+            {
+                "exinfo": "",
+                "date": "/",
+                "time": "",
+                "length": ""
+            }
+        ],
+        "ScTrHiBi2": [
+            {
+                "exinfo": "",
+                "date": "/",
+                "time": "",
+                "length": ""
+            }
+        ],
+        "ScTrHiCh2": [
+            {
+                "exinfo": "",
+                "date": "/",
+                "time": "",
+                "length": ""
+            }
+        ],
+        "ScTrHiPh2": [
+            {
+                "exinfo": "",
+                "date": "/",
+                "time": "",
+                "length": ""
+            }
+        ],
+        "": [
+            {
+                "exinfo": "",
+                "date": "/",
+                "time": "",
+                "length": ""
+            }
+        ]
+    }
+}
