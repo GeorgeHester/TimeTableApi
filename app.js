@@ -95,14 +95,13 @@ app.post('/xlsx', async (req, res) => {
 
     editxlsx(data);
 
-    res.sendFile('./xlsx/temp.xlsx');
-        /*, `${req.body.name} - TimeTable 2020 GCSE.xlsx`, (err) => {
+    res.download('./xlsx/temp.xlsx', `${req.body.name} - TimeTable 2020 GCSE.xlsx`, (err) => {
         if (err) {
             console.log(err);
             res.status(500);
             return;
         };
-    });*/
+    });
 });
 
 app.listen(process.env.PORT || 3000, function () {
