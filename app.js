@@ -76,7 +76,7 @@ async function editxlsx(data) {
 
 app.get('/xlsx', async (req, res) => { 
     
-    console.log(req.body);
+    console.log(req);
 
     var intdata = req.body.exams;
     
