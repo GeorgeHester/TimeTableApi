@@ -95,14 +95,14 @@ app.post('/xlsx', async (req, res) => {
 
     editxlsx(data, req.ip);
 
-    res.send(`./xlsx/temp-${req.ip}.xlsx`);
-        /*.download('./xlsx/temp.xlsx', `${req.body.name} - TimeTable 2020 GCSE.xlsx`, (err) => {
+    /* res.send(`./xlsx/temp-${req.ip}.xlsx`);*/
+    res.download('./xlsx/temp.xlsx', `${req.body.name} - TimeTable 2020 GCSE.xlsx`, (err) => {
         if (err) {
             console.log(err);
             res.status(500);
             return;
         };
-    });*/
+    });
 });
 
 app.listen(process.env.PORT || 3000, function () {
