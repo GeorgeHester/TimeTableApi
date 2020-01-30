@@ -56,27 +56,6 @@ async function editxlsx(data) {
             sheet.getRow(row2).getCell(cell).value = exam.cell2;
             sheet.getRow(row3).getCell(cell).value = exam.cell3;
 
-            sheet.getRow(row).getCell(cell).fill = {
-                type: 'pattern',
-                pattern: 'solid',
-                fgColor: { argb: 'FFFFD966' },
-                bgColor: { argb: 'FFFFD966' }
-            };
-
-            sheet.getRow(row2).getCell(cell).fill = {
-                type: 'pattern',
-                pattern: 'solid',
-                fgColor: { argb: 'FFFFD966' },
-                bgColor: { argb: 'FFFFD966' }
-            };
-
-            sheet.getRow(row3).getCell(cell).fill = {
-                type: 'pattern',
-                pattern: 'solid',
-                fgColor: { argb: 'FFFFD966' },
-                bgColor: { argb: 'FFFFD966' }
-            };
-
         };
 
     };
