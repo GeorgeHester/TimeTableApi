@@ -28,42 +28,21 @@
             "indexR": 53,
             "indexC": 14
         },
-        "MaFo1": {
+        "Ma1": {
             "cell1": "Mathematics",
             "cell2": "Paper 1 {non-calc}",
             "cell3": "[AQA] - 1h 30m",
             "indexR": 22,
             "indexC": 5
         },
-        "MaFo2": {
+        "Ma2": {
             "cell1": "Mathematics",
             "cell2": "Paper 2 {calc}",
             "cell3": "[AQA] - 1h 30m",
             "indexR": 53,
             "indexC": 11
         },
-        "MaFo3": {
-            "cell1": "Mathematics",
-            "cell2": "Paper 3 {calc}",
-            "cell3": "[AQA] - 1h 30m",
-            "indexR": 68,
-            "indexC": 2
-        },
-        "MaHi1": {
-            "cell1": "Mathematics",
-            "cell2": "Paper 1 {non-calc}",
-            "cell3": "[AQA] - 1h 30m",
-            "indexR": 22,
-            "indexC": 5
-        },
-        "MaHi2": {
-            "cell1": "Mathematics",
-            "cell2": "Paper 2 {calc}",
-            "cell3": "[AQA] - 1h 30m",
-            "indexR": 53,
-            "indexC": 11
-        },
-        "MaHi3": {
+        "Ma3": {
             "cell1": "Mathematics",
             "cell2": "Paper 3 {calc}",
             "cell3": "[AQA] - 1h 30m",
@@ -98,296 +77,222 @@
             "indexR": 12,
             "indexC": 11
         },
-
-
-
-        "Ge1": [
-            {
-                "exinfo": "[AQA] Geography Paper 1 ( 8035/1 )",
-                "date": "18/05",
-                "time": "am",
-                "length": "1h 30m"
-            }
-        ],
-        "Ge2": [
-            {
-                "exinfo": "[AQA] Geography Paper 2 ( 8035/2 )",
-                "date": "03/06",
-                "time": "am",
-                "length": "1h 30m"
-            }
-        ],
-        "Ge3": [
-            {
-                "exinfo": "[AQA] Geography Paper 3 ( 8035/3 )",
-                "date": "11/06",
-                "time": "am",
-                "length": "1h 15m"
-            }
-        ],
-        "Bu1": [
-            {
-                "exinfo": "[AQA] Business Paper 1 ( 8132/1 )",
-                "date": "21/05",
-                "time": "pm",
-                "length": "1h 45m"
-            }
-        ],
-        "Bu2": [
-            {
-                "exinfo": "[AQA] Business Paper 2 ( 8132/2 )",
-                "date": "02/06",
-                "time": "pm",
-                "length": "1h 45m"
-            }
-        ],
-        "GeLiFo": [
-            {
-                "exinfo": "[AQA] German Listening ( 8668/LF )",
-                "date": "18/05",
-                "time": "pm",
-                "length": "35m"
-            }
-        ],
-        "GeLiHi": [
-            {
-                "exinfo": "[AQA] German Listening ( 8668/LH )",
-                "date": "18/05",
-                "time": "pm",
-                "length": "45m"
-            }
-        ],
-        "GeReFo": [
-            {
-                "exinfo": "[AQA] German Reading ( 8668/RF )",
-                "date": "18/05",
-                "time": "pm",
-                "length": "45m"
-            }
-        ],
-        "GeReHi": [
-            {
-                "exinfo": "[AQA] German Reading ( 8668/RH )",
-                "date": "18/05",
-                "time": "pm",
-                "length": "1h"
-            }
-        ],
-        "GeWrFo": [
-            {
-                "exinfo": "[AQA] German Writing ( 8668/WF )",
-                "date": "05/06",
-                "time": "pm",
-                "length": "1h"
-            }
-        ],
-        "GeWrHi": [
-            {
-                "exinfo": "[AQA] German Writing ( 8668/WH )",
-                "date": "05/06",
-                "time": "pm",
-                "length": "1h 15m"
-            }
-        ],
-        "ScCoFoBi1": [
-            {
-                "exinfo": "",
-                "date": "12/05",
-                "time": "pm",
-                "length": "1h 15m"
-            }
-        ],
-        "ScCoFoCh1": [
-            {
-                "exinfo": "",
-                "date": "14/05",
-                "time": "am",
-                "length": "1h 15m"
-            }
-        ],
-        "ScCoFoPh1": [
-            {
-                "exinfo": "",
-                "date": "20/05",
-                "time": "pm",
-                "length": "1h 15m"
-            }
-        ],
-        "ScCoHiBi1": [
-            {
-                "exinfo": "",
-                "date": "12/05",
-                "time": "pm",
-                "length": "1h 15m"
-            }
-        ],
-        "ScCoHiCh1": [
-            {
-                "exinfo": "",
-                "date": "14/05",
-                "time": "am",
-                "length": "1h 15m"
-            }
-        ],
-        "ScCoHiPh1": [
-            {
-                "exinfo": "",
-                "date": "20/05",
-                "time": "pm",
-                "length": "1h 15m"
-            }
-        ],
-        "ScCoFoBi2": [
-            {
-                "exinfo": "",
-                "date": "01/06",
-                "time": "pm",
-                "length": "1h 15m"
-            }
-        ],
-        "ScCoFoCh2": [
-            {
-                "exinfo": "",
-                "date": "10/06",
-                "time": "am",
-                "length": "1h 15m"
-            }
-        ],
-        "ScCoFoPh2": [
-            {
-                "exinfo": "",
-                "date": "12/06",
-                "time": "am",
-                "length": "1h 15m"
-            }
-        ],
-        "ScCoHiBi2": [
-            {
-                "exinfo": "",
-                "date": "01/06",
-                "time": "pm",
-                "length": "1h 15m"
-            }
-        ],
-        "ScCoHiCh2": [
-            {
-                "exinfo": "",
-                "date": "10/06",
-                "time": "am",
-                "length": "1h 15m"
-            }
-        ],
-        "ScCoHiPh2": [
-            {
-                "exinfo": "",
-                "date": "12/06",
-                "time": "am",
-                "length": "1h 15m"
-            }
-        ],
-        "ScTrFoBi1": [
-            {
-                "exinfo": "",
-                "date": "/",
-                "time": "",
-                "length": ""
-            }
-        ],
-        "ScTrFoCh1": [
-            {
-                "exinfo": "",
-                "date": "/",
-                "time": "",
-                "length": ""
-            }
-        ],
-        "ScTrFoPh1": [
-            {
-                "exinfo": "",
-                "date": "/",
-                "time": "",
-                "length": ""
-            }
-        ],
-        "ScTrHiBi1": [
-            {
-                "exinfo": "",
-                "date": "/",
-                "time": "",
-                "length": ""
-            }
-        ],
-        "ScTrHiCh1": [
-            {
-                "exinfo": "",
-                "date": "/",
-                "time": "",
-                "length": ""
-            }
-        ],
-        "ScTrHiPh1": [
-            {
-                "exinfo": "",
-                "date": "/",
-                "time": "",
-                "length": ""
-            }
-        ],
-        "ScTrFoBi2": [
-            {
-                "exinfo": "",
-                "date": "/",
-                "time": "",
-                "length": ""
-            }
-        ],
-        "ScTrFoCh2": [
-            {
-                "exinfo": "",
-                "date": "/",
-                "time": "",
-                "length": ""
-            }
-        ],
-        "ScTrFoPh2": [
-            {
-                "exinfo": "",
-                "date": "/",
-                "time": "",
-                "length": ""
-            }
-        ],
-        "ScTrHiBi2": [
-            {
-                "exinfo": "",
-                "date": "/",
-                "time": "",
-                "length": ""
-            }
-        ],
-        "ScTrHiCh2": [
-            {
-                "exinfo": "",
-                "date": "/",
-                "time": "",
-                "length": ""
-            }
-        ],
-        "ScTrHiPh2": [
-            {
-                "exinfo": "",
-                "date": "/",
-                "time": "",
-                "length": ""
-            }
-        ],
-        "": [
-            {
-                "exinfo": "",
-                "date": "/",
-                "time": "",
-                "length": ""
-            }
-        ]
+        "Bu1": {
+            "cell1": "Business",
+            "cell2": "Paper 1",
+            "cell3": "[AQA] - 1h 45m",
+            "indexR": 27,
+            "indexC": 11
+        },
+        "Bu2": {
+            "cell1": "Business",
+            "cell2": "Paper 2",
+            "cell3": "[AQA] - 1h 45m",
+            "indexR": 58,
+            "indexC": 5
+        },
+        "Ge1": {
+            "cell1": "Geography",
+            "cell2": "Paper 1",
+            "cell3": "[AQA] - 1h 30m",
+            "indexR": 22,
+            "indexC": 2
+        },
+        "Ge2": {
+            "cell1": "Geography",
+            "cell2": "Paper 2",
+            "cell3": "[AQA] - 1h 30m",
+            "indexR": 53,
+            "indexC": 8
+        },
+        "Ge3": {
+            "cell1": "Geography",
+            "cell2": "Paper 3",
+            "cell3": "[AQA] - 1h 15m",
+            "indexR": 68,
+            "indexC": 11
+        },
+        "Dt": {
+            "cell1": "Design Technology",
+            "cell2": "Written",
+            "cell3": "[AQA] - 2h",
+            "indexR": 27,
+            "indexC": 14
+        },
+        "Fd": {
+            "cell1": "Food",
+            "cell2": "Paper 1",
+            "cell3": "[AQA] - 1h 45m",
+            "indexR": 73,
+            "indexC": 5
+        },
+        "GmLiRe": {
+            "cell1": "German",
+            "cell2": "Listen and Read",
+            "cell3": "[AQA] - 45m and 1h",
+            "indexR": 27,
+            "indexC": 2
+        },
+        "GmWr": {
+            "cell1": "German",
+            "cell2": "Writing",
+            "cell3": "[AQA] - 1h 15m",
+            "indexR": 58,
+            "indexC": 14
+        },
+        "Dr": {
+            "cell1": "Drama",
+            "cell2": "Understanding",
+            "cell3": "[AQA] - 1h 45m",
+            "indexR": 27,
+            "indexC": 2
+        },
+        "FrLiRe": {
+            "cell1": "French",
+            "cell2": "Listen and Read",
+            "cell3": "[AQA] - 45m and 1h",
+            "indexR": 7,
+            "indexC": 5
+        },
+        "FrWr": {
+            "cell1": "German",
+            "cell2": "Writing",
+            "cell3": "[AQA] - 1h 15m",
+            "indexR": 7,
+            "indexC": 14
+        },
+        "Hi1": {
+            "cell1": "History",
+            "cell2": "Paper 1",
+            "cell3": "[AQA] - 2h",
+            "indexR": 53,
+            "indexC": 2
+        },
+        "Hi2": {
+            "cell1": "History",
+            "cell2": "Paper 2",
+            "cell3": "[AQA] - 2h",
+            "indexR": 58,
+            "indexC": 11
+        },
+        "Mu": {
+            "cell1": "Music",
+            "cell2": "Understanding",
+            "cell3": "[AQA] - 1h 30m",
+            "indexR": 73,
+            "indexC": 5
+        },
+        "So1": {
+            "cell1": "Sociology",
+            "cell2": "Paper 1",
+            "cell3": "[AQA] - 1h 45m",
+            "indexR": 27,
+            "indexC": 2
+        },
+        "So2": {
+            "cell1": "Sociology",
+            "cell2": "Paper 2",
+            "cell3": "[AQA] - 1h 45m",
+            "indexR": 27,
+            "indexC": 14
+        },
+        "Re1": {
+            "cell1": "Religious Studies",
+            "cell2": "Paper 1",
+            "cell3": "[AQA] - 1h 45m",
+            "indexR": 12,
+            "indexC": 2
+        },
+        "Re2": {
+            "cell1": "Religious Studies",
+            "cell2": "Paper 2",
+            "cell3": "[AQA] - 1h 45m",
+            "indexR": 27,
+            "indexC": 5
+        },
+        "ScBi1": {
+            "cell1": "Biology",
+            "cell2": "Paper 1",
+            "cell3": "[AQA] - 1h 15m",
+            "indexR": 12,
+            "indexC": 5
+        },
+        "ScBi2": {
+            "cell1": "Biology",
+            "cell2": "Paper 2",
+            "cell3": "[AQA] - 1h 15m",
+            "indexR": 58,
+            "indexC": 2
+        },
+        "ScCh1": {
+            "cell1": "Chemistry",
+            "cell2": "Paper 1",
+            "cell3": "[AQA] - 1h 15m",
+            "indexR": 7,
+            "indexC": 11
+        },
+        "ScCh2": {
+            "cell1": "Chemistry",
+            "cell2": "Paper 2",
+            "cell3": "[AQA] - 1h 15m",
+            "indexR": 68,
+            "indexC": 8
+        },
+        "ScPh1": {
+            "cell1": "Physics",
+            "cell2": "Paper 1",
+            "cell3": "[AQA] - 1h 15m",
+            "indexR": 27,
+            "indexC": 8
+        },
+        "ScPh2": {
+            "cell1": "Physics",
+            "cell2": "Paper 2",
+            "cell3": "[AQA] - 1h 15m",
+            "indexR": 68,
+            "indexC": 14
+        },
+        "StBi1": {
+            "cell1": "Biology",
+            "cell2": "Paper 1",
+            "cell3": "[AQA] - 1h 45m",
+            "indexR": 12,
+            "indexC": 5
+        },
+        "StBi2": {
+            "cell1": "Biology",
+            "cell2": "Paper 2",
+            "cell3": "[AQA] - 1h 45m",
+            "indexR": 58,
+            "indexC": 2
+        },
+        "StCh1": {
+            "cell1": "Chemistry",
+            "cell2": "Paper 1",
+            "cell3": "[AQA] - 1h 45m",
+            "indexR": 7,
+            "indexC": 11
+        },
+        "StCh2": {
+            "cell1": "Chemistry",
+            "cell2": "Paper 2",
+            "cell3": "[AQA] - 1h 45m",
+            "indexR": 68,
+            "indexC": 8
+        },
+        "StPh1": {
+            "cell1": "Physics",
+            "cell2": "Paper 1",
+            "cell3": "[AQA] - 1h 45m",
+            "indexR": 27,
+            "indexC": 8
+        },
+        "StPh2": {
+            "cell1": "Physics",
+            "cell2": "Paper 2",
+            "cell3": "[AQA] - 1h 45m",
+            "indexR": 68,
+            "indexC": 14
+        }
     }
 }
