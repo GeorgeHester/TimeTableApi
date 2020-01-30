@@ -4,13 +4,16 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "test": "node app.js"
   },
   "author": "NightFoxDev",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
+    "data-parser": "^1.0.1",
+    "encodeurl": "^1.0.2",
     "exceljs": "^3.6.1",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "iconv-lite": "^0.5.1"
   }
 }

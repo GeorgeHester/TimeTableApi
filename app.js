@@ -3,17 +3,20 @@ const fs = require('fs');
 const express = require('express');
 const app = express();
 const cors = require('cors');
+const bodyParser = require("body-parser");
 
 const corsoptions = {
     origin: '*',
     methods: 'GET,POST,PUT,DELETE',
-    allowedHeaders: 'Content-Type,Authorization,auth',
+    allowedHeaders: 'Content-Type,Response-Type',
     optionsSuccessStatus: 200
 };
 
 app.use(cors(corsoptions));
 
 app.use(express.json());
+
+app.use(bodyParser.urlencoded({extended: true}));
 
 var examdatajson = fs.readFileSync('./json/examdata.json');
 var examdata = JSON.parse(examdatajson);
@@ -23,7 +26,6 @@ function getexams(data, exams) {
     var outdata = [];
 
     var datalen = Object.keys(data).length;
-    console.log(datalen);
 
     for (num = 0; num < datalen; num++) {
         var exam = data[num].exam;
@@ -32,20 +34,17 @@ function getexams(data, exams) {
     };
 
     return outdata;
-
 };
 
-async function editxlsx(data, ip) {
+async function editxlsx(data) {
     var book = new excel.Workbook();
     book = await book.xlsx.readFile('./xlsx/table.xlsx');
     var sheet = book.getWorksheet('data');
 
     var datalen = Object.keys(data).length;
-    console.log(datalen);
 
     for (num = 0; num < datalen; num++) {
         var exam = data[num]
-        console.log(exam);
         var row = exam.indexR;
         var row2 = row + 1;
         var row3 = row + 2;
@@ -82,27 +81,21 @@ async function editxlsx(data, ip) {
 
     };
 
-    book.xlsx.writeFile(`./xlsx/temp-${ip}.xlsx`);
+    await book.xlsx.writeFile('./xlsx/temp.xlsx');
+    var file = fs.readFileSync('./xlsx/temp.xlsx');
+    return file;
 };
 
 app.post('/xlsx', async (req, res) => { 
-
-    console.log(req.body);
 
     var intdata = req.body.exams;
     
     var data = getexams(intdata, exams);
 
-    editxlsx(data, req.ip);
+    var file = await editxlsx(data);
 
-    /* res.send(`./xlsx/temp-${req.ip}.xlsx`);*/
-    res.download('./xlsx/temp.xlsx', `${req.body.name} - TimeTable 2020 GCSE.xlsx`, (err) => {
-        if (err) {
-            console.log(err);
-            res.status(500);
-            return;
-        };
-    });
+    res.send(file.toString('base64'));
+
 });
 
 app.listen(process.env.PORT || 3000, function () {
